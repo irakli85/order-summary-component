@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+  font-family: 'Red Hat Display';
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+}
+
+.container{
+  position: absolute;
+  width: 450px;
+  height: 697px;
+  top: 102px;
+  left: 495px;
+  /* border: solid yellow; */
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+}
+
+.hero{
+  border-radius: 20px 20px 0px 0px;
+}
+
+.heading{  
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  text-align: center;
+  color: #1F2E55;
+  margin-top: 45px;
+  margin-left: 48px;
+  /* border: solid yellow; */
+  Width: 354px;
+  Height: 37px;  
+  Left: 48px;
+}
+
+.text{
+  height: 78px;
+  width: 354px;
+  left: 48px;
+  margin-left: 48px;
+  text-align: center;
+  color:#717FA6;
+  margin-top: 17px;
+  /* border: solid yellow; */
+}
+
+.music{
+  /* border: solid yellow; */
+
+  display: flex;
+  align-items: center;
+  height: 98px;
+  width: 354px;
+  left: 48px;  
+  background: #F7F9FF;
+  border-radius: 11px;
+  margin-left: 48px;
+}
+
+.music-icon{
+  margin-left: 24px;
+}
+
+.annual-plan{
+  margin-left: 20px;
+}
+
+.plan{
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1F2E55;
+}
+
+.price-year{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #717FA6;
+}
+
+.change{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #382AE1;
+  margin-left: 94px;
+}
+
+.change:hover{
+  text-decoration-line: none;
+  color: #766CF1;
+  cursor: pointer;
+}
+
+.payment{
+  height: 50px;
+  width: 354px;  
+  border-radius: 11px;
+  background: #382AE1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  margin-left: 48px;
+  margin-top: 32px;
+  border: none;
+
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.payment:hover{
+  background: #766CF1;
+  cursor: pointer;
+}
+
+.cancel{
+  display: block;
+  height: 20px;
+  width: auto;
+  margin-left: 176px;
+  margin-top: 32px;
+
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #717FA6;
+}
+
+.cancel:hover{
+  color: #1F2E55;
+  cursor: pointer;
+}
